@@ -1,0 +1,18 @@
+{
+  "name": "timestamp",
+  "version": "1.0.0",
+  "description": "freecodecamp: APIs and Microservices",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "express": "^4.12.4",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Juan Rafael Mejia",
+  "license": "ISC"
+}
