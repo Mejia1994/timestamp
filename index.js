@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const cors = require("cors");
-const _api = require("./api/api")
+const _api = require("./api/index")
 
 const mustache = require('mustache-express');
 app.engine('html', mustache());
